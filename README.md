@@ -1,7 +1,7 @@
 # ember-cli-fullpage-js
 
 [![npm version](https://badge.fury.io/js/ember-cli-fullpage-js.svg)](https://badge.fury.io/js/ember-cli-fullpage-js)
-[![Build Status](https://travis-ci.org/chrismou/ember-cli-fullpage-js.svg?branch=master)](https://travis-ci.org/chrismou/ember-cli-fullpage-js)
+[![Build Status](https://api.travis-ci.org/chrismou/ember-cli-fullpage-js.svg?branch=master)](https://travis-ci.org/chrismou/ember-cli-fullpage-js)
 [![License](http://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 This plugin provides an ember.js template wrapper for the [fullPage.js](https://alvarotrigo.com/fullPage/) plugin, which provides "a simple and easy to use library to create fullscreen 
@@ -39,7 +39,7 @@ To use a horizontal slider within a section, each slide will be defined by defau
 </div>
 ```
 
-#### （2）**Options**
+### Options
 
 All fullPage.js options can be specified on the tag.  For example:
 
