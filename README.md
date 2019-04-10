@@ -122,6 +122,3 @@ For more info on the options availabl, [click here](https://github.com/alvarotri
   afterSlideLoad: function(section, origin, destination, direction){},
   onSlideLeave: function(section, origin, destination, direction){},
 ```
-
-## Credits
-
