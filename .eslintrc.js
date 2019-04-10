@@ -15,7 +15,8 @@ module.exports = {
     browser: true
   },
   rules: {
-    'no-unused-vars': "off"
+    'no-unused-vars': "off",
+    'ember/avoid-leaking-state-in-ember-objects': "off"
   },
   overrides: [
     // node files
