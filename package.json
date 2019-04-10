@@ -1,13 +1,17 @@
 {
   "name": "ember-cli-fullpage-js",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "An Ember.js wrapper for fullPage.js",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "emberjs",
+    "ember-cli",
+    "fullpage.js"
   ],
-  "repository": "",
+  "repository": "https://github.com/chrismou/ember-cli-fullpage-js",
   "license": "MIT",
-  "author": "",
+  "author": "Chris Chrisostomou",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -21,11 +25,13 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^7.1.2"
+    "ember-cli-babel": "^7.1.2",
+    "fullpage.js": "^3.0.4"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
     "broccoli-asset-rev": "^2.7.0",
+    "broccoli-funnel": "^2.0.2",
     "ember-cli": "~3.8.2",
     "ember-cli-dependency-checker": "^3.1.0",
     "ember-cli-eslint": "^4.2.3",
