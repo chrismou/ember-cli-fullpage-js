@@ -44,12 +44,10 @@ To use a horizontal slider within a section, each slide will be defined by defau
 All fullPage.js options can be specified on the tag.  For example:
 
 ```html
-{{#full-page autoScrolling='true' navigation='true' anchors='["firstPage", "secondPage"]' }}
+{{#full-page autoScrolling="true" navigation="true" menu="#header-menu"}}
   ...
 {{/full-page}}
 ```
-
-**Note**: The value of the option has to be wrapped by Single quotation mark `'` instead of Double quotation marks `"`.
 
 For more info on the options availabl, [click here](https://github.com/alvarotrigo/fullPage.js#vanilla-js-example-with-all-options) or use the list below as a reference.
 
@@ -131,3 +129,8 @@ See the [Contributing](CONTRIBUTING.md) guide for details.
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
+
+
+## Credit
+
+Basd on the original work of @imfly at [https://github.com/imfly/ember-cli-fullpagejs](https://github.com/imfly/ember-cli-fullpagejs)
