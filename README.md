@@ -10,7 +10,7 @@ scrolling websites".
 ## Installation
 
 ```
-ember install ember-cli-fullpage-js
+ember install @chrismou/ember-cli-fullpage-js
 ```
 
 ## Usage
