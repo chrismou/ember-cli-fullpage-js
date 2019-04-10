@@ -63,13 +63,13 @@ export default Component.extend({
   lazyLoading: true,
 
   //events
-  /*onLeave: function(origin, destination, direction){},
+  onLeave: function(origin, destination, direction){},
   afterLoad: function(origin, destination, direction){},
   afterRender: function(){},
   afterResize: function(width, height){},
   afterResponsive: function(isResponsive){},
   afterSlideLoad: function(section, origin, destination, direction){},
-  onSlideLeave: function(section, origin, destination, direction){},*/
+  onSlideLeave: function(section, origin, destination, direction){},
 
   init() {
     this._super(...arguments);
@@ -82,15 +82,6 @@ export default Component.extend({
     this.sectionsColor = ['#ccc', '#fff'];
     this.parallaxOptions = { type: 'reveal', percentage: 62, property: 'translate' };
   },
-
-//events
-  /*onLeave: function(index, nextIndex, direction){},
-  afterLoad: function(anchorLink, index){},
-  afterRender: function(){},
-  afterResize: function(){},
-  afterResponsive: function(isResponsive){},
-  afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-  onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){},*/
 
   didRender() {
     run.scheduleOnce('afterRender', this, function () {
