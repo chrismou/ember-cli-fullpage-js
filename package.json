@@ -1,7 +1,7 @@
 {
   "name": "@chrismou/ember-cli-fullpage-js",
   "version": "1.0.3",
-  "description": "An Ember.js wrapper for fullPage.js",
+  "description": "An fullPage.js wrapper for Ember.js",
   "keywords": [
     "ember-addon",
     "ember",
@@ -25,9 +25,9 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
+    "broccoli-funnel": "^2.0.2",
     "ember-cli-babel": "^7.1.2",
-    "fullpage.js": "^3.0.4",
-    "broccoli-funnel": "^2.0.2"
+    "fullpage.js": "^3.0.4"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
