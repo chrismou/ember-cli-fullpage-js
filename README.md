@@ -28,7 +28,7 @@ Use the tag `{{#full-page}}{{/full-page}}` in your template files to create the 
 {{/full-page}}
 ```
 
-To use a horizontal slider within a section, each slide will be defined by default with an element containing the slide class:
+To use a horizontal slider within a section, use the following structure inside the `section` you want to add the slides:
 
 ```
 <div class="section">
@@ -49,7 +49,7 @@ All fullPage.js options can be specified on the tag.  For example:
 {{/full-page}}
 ```
 
-For more info on the options availabl, [click here](https://github.com/alvarotrigo/fullPage.js#vanilla-js-example-with-all-options) or use the list below as a reference.
+For more info on the options available, [click here](https://github.com/alvarotrigo/fullPage.js#vanilla-js-example-with-all-options) or use the list below as a reference.
 
 ```
 //Navigation
