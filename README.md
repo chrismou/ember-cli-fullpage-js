@@ -13,6 +13,26 @@ scrolling websites".
 ember install @chrismou/ember-cli-fullpage-js
 ```
 
+fullPage.js ships with 2 optional includes - [scrollOverflow and easings](https://github.com/alvarotrigo/fullPage.js/#usage).  If you want to include these along with the addon, add the following to the relevant 
+section of your `ember-cli-build.js` file:
+
+```
+module.exports = function(defaults) {
+  let app = new EmberApp(defaults, {
+    'ember-cli-fullscreen-js': {
+      includeJqueryEasings: true,
+      includeScrollOverflow: true
+    }
+  });
+
+  return app.toTree();
+};
+
+```
+
+Note, the above is not required if you don't need to include either of these additional files.
+
+
 ## Usage
 
 Use the tag `{{#full-page}}{{/full-page}}` in your template files to create the fullPage container. The content itself should be structured as per the [fullPage.js docs](https://github.com/alvarotrigo/fullPage.js#required-html-structure).
@@ -28,7 +48,7 @@ Use the tag `{{#full-page}}{{/full-page}}` in your template files to create the 
 {{/full-page}}
 ```
 
-To use a horizontal slider within a section, use the following structure inside the `section` you want to add the slides:
+To use a horizontal slider within a section, use the following structure inside the `section` you want to add the slides to:
 
 ```
 <div class="section">
